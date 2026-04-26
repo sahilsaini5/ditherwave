@@ -7,6 +7,8 @@ Wrap any image, video, or canvas in `<Dither>` — or drop in `<DitheredWaves>` 
 
 [![ditherwave demo](https://github.com/sahilsaini5/ditherwave/raw/main/media/demo.gif)](https://ditherwave.vercel.app)
 
+<sub>[watch in HD →](https://github.com/sahilsaini5/ditherwave/raw/main/media/demo.mp4) · [try it live →](https://ditherwave.vercel.app)</sub>
+
 [![npm](https://img.shields.io/npm/v/ditherwave?style=flat-square)](https://www.npmjs.com/package/ditherwave)
 [![bundle](https://img.shields.io/bundlephobia/minzip/ditherwave?style=flat-square)](https://bundlephobia.com/package/ditherwave)
 [![license](https://img.shields.io/npm/l/ditherwave?style=flat-square)](./LICENSE)
