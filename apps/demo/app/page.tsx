@@ -24,7 +24,7 @@ export default function Page() {
   const [resolution, setResolution] = useState(256);
   const [animate, setAnimate] = useState(true);
   const [matrixSize, setMatrixSize] = useState<2 | 4 | 8>(8);
-  const [pixelSize, setPixelSize] = useState(3);
+  const [pixelSize, setPixelSize] = useState(6);
   const [colorNum, setColorNum] = useState(4);
 
   const palette = PALETTES.find((p) => p.id === paletteId) ?? PALETTES[0]!;
