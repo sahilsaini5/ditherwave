@@ -1,0 +1,72 @@
+{
+  "name": "ditherwave",
+  "version": "0.1.0",
+  "description": "A tiny WebGL2 dithering primitive for React — wrap any image, video, or canvas, or drop in an animated grainy background.",
+  "license": "MIT",
+  "author": "sahilsaini5 (https://github.com/sahilsaini5)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilsaini5/ditherwave.git"
+  },
+  "homepage": "https://github.com/sahilsaini5/ditherwave#readme",
+  "bugs": {
+    "url": "https://github.com/sahilsaini5/ditherwave/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dither",
+    "dithering",
+    "bayer",
+    "halftone",
+    "ascii",
+    "background",
+    "gradient",
+    "noise",
+    "react",
+    "webgl",
+    "webgl2"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/vanilla.umd.global.js",
+  "jsdelivr": "./dist/vanilla.umd.global.js",
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./vanilla": {
+      "types": "./dist/vanilla.d.ts",
+      "import": "./dist/vanilla.js",
+      "require": "./dist/vanilla.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "size": "gzip -c dist/index.js | wc -c"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}

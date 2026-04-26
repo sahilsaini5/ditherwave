@@ -1,0 +1,21 @@
+{
+  "name": "ditherwave-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r --filter=./packages/* build",
+    "dev:lib": "pnpm --filter ditherwave dev",
+    "dev:demo": "pnpm --filter dither-demo dev",
+    "dev": "pnpm --filter ditherwave build && pnpm --filter dither-demo dev",
+    "demo:build": "pnpm --filter ditherwave build && pnpm --filter dither-demo build",
+    "size": "pnpm --filter ditherwave size"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
