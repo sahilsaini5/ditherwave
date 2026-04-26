@@ -9,6 +9,8 @@ Wrap any image, video, or canvas in `<Dither>` — or drop in `<DitheredWaves>` 
 [![bundle](https://img.shields.io/bundlephobia/minzip/ditherwave?style=flat-square)](https://bundlephobia.com/package/ditherwave)
 [![license](https://img.shields.io/npm/l/ditherwave?style=flat-square)](./LICENSE)
 
+[**live demo →**](https://ditherwave.vercel.app)
+
 </div>
 
 ---
