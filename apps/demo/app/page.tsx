@@ -47,7 +47,7 @@ export default function Page() {
             <a href="#install">install</a>
             <a href="#try">try</a>
             <a href="#gallery">gallery</a>
-            <a href="https://github.com/ditherwave/ditherwave" target="_blank" rel="noreferrer">github</a>
+            <a href="https://github.com/sahilsaini5/ditherwave" target="_blank" rel="noreferrer">github</a>
           </nav>
         </header>
 
@@ -224,7 +224,7 @@ export default function Page() {
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', width: '100%', flexWrap: 'wrap', gap: 16 }}>
           <div>ditherwave — MIT licensed</div>
           <div style={{ display: 'flex', gap: 20 }}>
-            <a href="https://github.com/ditherwave/ditherwave">github</a>
+            <a href="https://github.com/sahilsaini5/ditherwave">github</a>
             <a href="https://www.npmjs.com/package/ditherwave">npm</a>
           </div>
         </div>
