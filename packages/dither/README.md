@@ -5,6 +5,8 @@
 **A tiny WebGL2 dithering primitive for React.**
 Wrap any image, video, or canvas in `<Dither>` — or drop in `<DitheredWaves>` for an animated grainy background. Bayer, halftone, ASCII, or error-diffusion. Live, animated, **under 8kb gzipped**.
 
+[![ditherwave demo](https://github.com/sahilsaini5/ditherwave/raw/main/media/demo.gif)](https://ditherwave.vercel.app)
+
 [![npm](https://img.shields.io/npm/v/ditherwave?style=flat-square)](https://www.npmjs.com/package/ditherwave)
 [![bundle](https://img.shields.io/bundlephobia/minzip/ditherwave?style=flat-square)](https://bundlephobia.com/package/ditherwave)
 [![license](https://img.shields.io/npm/l/ditherwave?style=flat-square)](./LICENSE)
